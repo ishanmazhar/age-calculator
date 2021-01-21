@@ -1,0 +1,43 @@
+
+			body {
+				background-color:aquamarine;
+				box-sizing: border-box;
+			}
+
+			.container {
+				background-color:rgb(8, 92, 64);
+				padding: 20px;
+				width: 50%;
+				color:aquamarine;
+				font-family:Arial, Helvetica, sans-serif;
+				border-radius: 5px;
+				/*VERTICAL AND HORIZONTAL ALIGNMENT*/
+				margin: 0;
+  				position: absolute;
+  				top: 50%;
+				left: 50%;
+  				-ms-transform: translate(-50%, -50%);
+  				transform: translate(-50%, -50%);
+			}
+			input[type=text] {
+				width: 100%;
+				padding: 12px 20px;
+				margin: 8px 0;
+				box-sizing: border-box;
+				border: none;
+				border-radius: 3px;
+				background-color: #3CBC8D;
+				color: white;
+			}
+			input[type=text]:focus {
+				background-color: rgb(8, 62, 80);
+			}
+			button {
+				background-color: #52dd57;
+				border: none;
+				color: white;
+				padding: 16px 32px;
+				text-decoration: none;
+				margin: 4px 2px;
+				cursor: pointer;
+			}
